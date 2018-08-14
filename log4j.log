@@ -1,0 +1,48 @@
+2018-08-14 11:29:19,211 INFO  - HHH000412: Hibernate Core {5.3.4.Final}
+2018-08-14 11:29:19,216 INFO  - HHH000206: hibernate.properties not found
+2018-08-14 11:29:19,998 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-08-14 11:29:22,472 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-08-14 11:29:22,497 INFO  - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernate_xml_database]
+2018-08-14 11:29:22,497 INFO  - HHH10001001: Connection properties: {user=root, password=****}
+2018-08-14 11:29:22,498 INFO  - HHH10001003: Autocommit mode: false
+2018-08-14 11:29:22,507 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-08-14 11:29:23,070 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-08-14 11:29:24,655 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3028e50e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-08-14 11:29:25,213 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-08-14 11:29:25,518 INFO  - Method findAll is called in TrainerDao
+2018-08-14 11:29:25,647 INFO  - List of Trainers: [Trainer(id=1, name=Andrei Reut, language=Java, experience=6), Trainer(id=2, name=Ivan Ivanov, language=C++, experience=4), Trainer(id=3, name=Petr Petrov, language=C#, experience=5)]
+2018-08-14 11:29:25,687 INFO  - Method find is called in TrainerDao
+2018-08-14 11:29:25,708 INFO  - Trainer(id=4, name=Andrei Reut, language=Java, experience=6) has been found
+2018-08-14 11:29:25,733 INFO  - Method save is called in TrainerDao
+2018-08-14 11:29:25,755 INFO  - Trainer(id=10, name=Nikolai Nikolaev, language=C, experience=12) has been saved successfully!
+2018-08-14 11:29:25,800 INFO  - Method delete is called in TrainerDao
+2018-08-14 11:29:25,831 INFO  - Trainer(id=12, name=Ivan Ivanov, language=C++, experience=4) has been deleted successfully!
+2018-08-14 11:29:25,862 INFO  - Method update is called in TrainerDao for Trainer(id=15, name=Ivan Ivanov, language=Java, experience=4)
+2018-08-14 11:29:25,889 INFO  - Trainer(id=15, name=Ivan Ivanov, language=Java, experience=4) has been updated successfully!
+2018-08-14 11:29:25,916 INFO  - Method findByLanguage is called in TrainerDao
+2018-08-14 11:29:25,949 INFO  - List of Trainers: [Trainer(id=17, name=Andrei Reut, language=Java, experience=6)]
+2018-08-14 11:29:25,951 INFO  - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hibernate_xml_database]
+2018-08-14 11:29:40,854 INFO  - HHH000412: Hibernate Core {5.3.4.Final}
+2018-08-14 11:29:40,859 INFO  - HHH000206: hibernate.properties not found
+2018-08-14 11:29:41,652 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-08-14 11:29:44,176 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-08-14 11:29:44,193 INFO  - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernate_xml_database]
+2018-08-14 11:29:44,194 INFO  - HHH10001001: Connection properties: {user=root, password=****}
+2018-08-14 11:29:44,194 INFO  - HHH10001003: Autocommit mode: false
+2018-08-14 11:29:44,201 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-08-14 11:29:44,792 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-08-14 11:29:46,337 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@304a3655] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-08-14 11:29:46,630 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-08-14 11:29:47,043 INFO  - Method delete is called in TraineeDao
+2018-08-14 11:29:47,156 INFO  - Trainee(id=21, name=Sergei Sergeev, trainer=Trainer(id=20, name=Andrei Reut, language=Java, experience=6))' has been deleted successfully!
+2018-08-14 11:29:47,223 INFO  - Method find is called in TraineeDao
+2018-08-14 11:29:47,230 INFO  - Trainee(id=22, name=Olga Borzdyko, trainer=Trainer(id=23, name=Andrei Reut, language=Java, experience=6)) has been found successfully!
+2018-08-14 11:29:47,253 INFO  - Method save is called in TraineeDao
+2018-08-14 11:29:47,279 INFO  - Trainee(id=28, name=Alexandr Alexandrov, trainer=Trainer(id=27, name=Ivan Ivanov, language=C++, experience=4)) has been saved successfully!
+2018-08-14 11:29:47,315 INFO  - Method update is called in TraineeDao for Trainee(id=31, name=Sergei Sergeev, trainer=Trainer(id=30, name=Ivan Ivanov, language=C++, experience=4))
+2018-08-14 11:29:47,323 INFO  - Trainee(id=31, name=Sergei Sergeev, trainer=Trainer(id=30, name=Ivan Ivanov, language=C++, experience=4)) has been updated successfully!
+2018-08-14 11:29:47,403 INFO  - Method findByTrainerName is called in TraineeDao
+2018-08-14 11:29:47,504 INFO  - List of Trainees: [Trainee(id=32, name=Olga Borzdyko, trainer=Trainer(id=32, name=Andrei Reut, language=Java, experience=6)), Trainee(id=33, name=Denis Byhovsky, trainer=Trainer(id=32, name=Andrei Reut, language=Java, experience=6)), Trainee(id=34, name=Sergei Sergeev, trainer=Trainer(id=32, name=Andrei Reut, language=Java, experience=6))]
+2018-08-14 11:29:47,604 INFO  - Method findAll is called in TraineeDao
+2018-08-14 11:29:47,613 INFO  - List of Trainees: [Trainee(id=35, name=Olga Borzdyko, trainer=Trainer(id=35, name=Andrei Reut, language=Java, experience=6)), Trainee(id=36, name=Denis Byhovsky, trainer=Trainer(id=35, name=Andrei Reut, language=Java, experience=6)), Trainee(id=37, name=Sergei Sergeev, trainer=Trainer(id=35, name=Andrei Reut, language=Java, experience=6))]
+2018-08-14 11:29:47,614 INFO  - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hibernate_xml_database]

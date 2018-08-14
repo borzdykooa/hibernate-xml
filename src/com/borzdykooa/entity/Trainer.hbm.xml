@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.borzdykooa.entity">
+    <class name="Trainer" table="trainer">
+        <id name="id" type="java.lang.Long" column="id">
+            <generator class="identity"/>
+        </id>
+        <property name="name" column="name" type="java.lang.String"/>
+        <property name="language" column="language" type="java.lang.String"/>
+        <property name="experience" column="experience" type="java.lang.Integer"/>
+    </class>
+</hibernate-mapping>
